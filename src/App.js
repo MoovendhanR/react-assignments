@@ -1,5 +1,6 @@
 import './App.css';
 import Calculator from './Components/Calculator';
+import ReverseTimer from './Components/ReverseTimer';
 import Timer from './Components/Timer';
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <Calculator/>
       <br/>
       <Timer/>
+      <br/>
+      <ReverseTimer/>
     </div>
   );
 }
