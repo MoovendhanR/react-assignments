@@ -1,11 +1,5 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +29,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App {
+  font-family: sans-serif;
+ 
+}
+.button{
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  row-gap: 1px;
+  column-gap: 1px;
+}
+.display-value{
+  width:200px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 1px;
+  margin-bottom: 2px;
 }
